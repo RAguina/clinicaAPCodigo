@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'https://clinicaback-hngz.4.us-1.fl0.io';
+const apiUrl = 'https://clinicaback-hngz.4.us-1.fl0.io:8080';
 
 export async function obtenerMedicos() {
     const respuesta = await axios.get(`${apiUrl}/medicos/`)

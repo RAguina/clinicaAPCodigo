@@ -29,7 +29,7 @@ function ListadoPacientes() {
 
   //Traer
   const fetchPacientes = () => {
-    axios.get('https://clinicaback-hngz.4.us-1.fl0.io')
+    axios.get('https://clinicaback-hngz.4.us-1.fl0.io:8080')
       .then(response => {
         setPacientes(response.data);
       })

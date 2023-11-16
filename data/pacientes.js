@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const apiUrl = 'https://clinicaback-hngz.4.us-1.fl0.io';
-const apiUrlPacientes = 'https://clinicaback-hngz.4.us-1.fl0.io/pacientes/'
+const apiUrl = 'https://clinicaback-hngz.4.us-1.fl0.io:8080';
+const apiUrlPacientes = 'https://clinicaback-hngz.4.us-1.fl0.io:8080/pacientes/'
 
 
 
